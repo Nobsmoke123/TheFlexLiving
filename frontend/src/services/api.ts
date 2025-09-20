@@ -13,7 +13,7 @@ class ApiService {
       headers: {},
     }
   ) {
-    const url = `https://${API_BASE_URL}${endpoint}`;
+    const url = `https://${API_BASE_URL}/api${endpoint}`;
     const config = {
       headers: {
         "Content-Type": "application/json",
