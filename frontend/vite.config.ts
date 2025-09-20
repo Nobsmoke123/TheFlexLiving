@@ -6,7 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   server: {
     host: "::",
-    allowedHosts: ["theflexassessmentfrontend-production.up.railway.app"],
+    allowedHosts: ["theflexliving-frontend-production.up.railway.app"],
     port: 5000,
   },
   plugins: [react(), tailwindcss()],
