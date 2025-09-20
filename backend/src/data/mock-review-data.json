@@ -1,0 +1,74 @@
+[
+  {
+    "id": 7453,
+    "type": "guest-to-host",
+    "status": "published",
+    "rating": null,
+    "publicReview": "Shane and family are wonderful! Would definitely host again :)",
+    "reviewCategory": [
+      {
+        "category": "cleanliness",
+        "rating": 10
+      },
+      {
+        "category": "communication",
+        "rating": 10
+      },
+      {
+        "category": "respect_house_rules",
+        "rating": 10
+      }
+    ],
+    "submittedAt": "2020-08-21 22:45:14",
+    "guestName": "Shane Finkelstein",
+    "listingName": "2B E1 A - 27 St Clements"
+  },
+  {
+    "id": 7454,
+    "type": "guest-to-host",
+    "status": "published",
+    "rating": null,
+    "publicReview": "Great location and clean apartment. The check-in process was smooth. Communication was excellent throughout our stay.",
+    "reviewCategory": [
+      {
+        "category": "cleanliness",
+        "rating": 9
+      },
+      {
+        "category": "communication",
+        "rating": 10
+      },
+      {
+        "category": "respect_house_rules",
+        "rating": 9
+      }
+    ],
+    "submittedAt": "2024-08-15 14:30:20",
+    "guestName": "Maria Rodriguez",
+    "listingName": "2B E1 - 33 St Clements"
+  },
+  {
+    "id": 7455,
+    "type": "guest-to-host",
+    "status": "published",
+    "rating": null,
+    "publicReview": "Absolutely fantastic stay! The penthouse exceeded all expectations. Stunning views and excellent service.",
+    "reviewCategory": [
+      {
+        "category": "cleanliness",
+        "rating": 10
+      },
+      {
+        "category": "communication",
+        "rating": 10
+      },
+      {
+        "category": "respect_house_rules",
+        "rating": 10
+      }
+    ],
+    "submittedAt": "2024-08-10 09:15:30",
+    "guestName": "James Thompson",
+    "listingName": "2B E1 A - 3 St Clements"
+  }
+]
