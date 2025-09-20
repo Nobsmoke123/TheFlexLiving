@@ -18,16 +18,6 @@ const reviewController = new ReviewController();
 router.get("/api/properties", propertyController.listProperties);
 
 /**
- * Get /api/properties/:propertyId
- * Returns property information with approved reviews.
- */
-router.get(
-  "/api/properties/:propertyId",
-  validateParams(validationSchemas.propertyId),
-  propertyController.findProperty
-);
-
-/**
  * GET /api/reviews
  * Returns reviews with pagination and filtering
  */
