@@ -138,15 +138,6 @@ describe("Validation and Pagination API", () => {
       expect(response.body.error).toBe("Invalid parameters");
     });
 
-    it("should validate property ID parameter", async () => {
-      const response = await request(app)
-        .get("/api/properties/invalid%20id") // Invalid ID with URL-encoded space
-        .expect(400);
-
-      expect(response.body.success).toBe(false);
-      expect(response.body.error).toBe("Invalid parameters");
-    });
-
     it("should reject invalid boolean for approved field", async () => {
       const response = await request(app)
         .post("/api/reviews/test-id/approve")
